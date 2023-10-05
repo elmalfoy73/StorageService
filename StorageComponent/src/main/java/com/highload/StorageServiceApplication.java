@@ -1,7 +1,7 @@
-package com.highload.storageservice;
+package com.highload;
 
-import com.highload.storageservice.Entities.KVPair;
-import com.highload.storageservice.service.StorageComponentService;
+import com.highload.service.StorageComponentService;
+import com.highload.Entities.KVPair;
 
 
 public class StorageServiceApplication {

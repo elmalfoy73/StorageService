@@ -1,9 +1,9 @@
-package org.example;
+package com.highload;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "org.example")
+@SpringBootApplication(scanBasePackages = "com.highload")
 public class MyApplication {
 
     public static void main(String[] args) {

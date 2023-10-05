@@ -1,4 +1,4 @@
-package com.highload.storageservice.Entities;
+package com.highload.Entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

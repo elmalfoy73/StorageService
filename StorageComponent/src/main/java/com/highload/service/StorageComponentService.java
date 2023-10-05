@@ -1,11 +1,9 @@
-package com.highload.storageservice.service;
+package com.highload.service;
 
-import com.highload.storageservice.Entities.KVPair;
-import com.highload.storageservice.utils.SessionFactoryManager;
+import com.highload.Entities.KVPair;
+import com.highload.utils.SessionFactoryManager;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class StorageComponentService {

@@ -1,6 +1,6 @@
-package com.highload.storageservice.utils;
+package com.highload.utils;
 
-import com.highload.storageservice.Entities.KVPair;
+import com.highload.Entities.KVPair;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
