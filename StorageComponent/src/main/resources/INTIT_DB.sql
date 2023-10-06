@@ -1,10 +1,11 @@
-CREATE SCHEMA IF NOT EXISTS Highload;
+CREATE SCHEMA IF NOT EXISTS highload;
 
-CREATE TABLE IF NOT EXISTS Highload.KVPair (
-    PairID SERIAL PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS highload.kvpair (
+    id SERIAL PRIMARY KEY,
     Key varchar(35),
     Value varchar(35)
 );
 
-INSERT INTO Highload.KVPair (key, value) VALUES ('test', 'test')
+INSERT INTO highload.kvpair (key, value) VALUES ('test', 'test')
 
+-- DROP TABLE kvpair;

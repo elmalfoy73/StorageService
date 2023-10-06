@@ -1,4 +1,4 @@
-package com.highload.exceptions;
+package com.storage.exceptions;
 
 public class PairException extends Exception {
     private PairException(String message) {
