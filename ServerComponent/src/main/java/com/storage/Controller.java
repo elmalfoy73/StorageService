@@ -15,7 +15,7 @@ public class Controller {
         return repository.findByKey(key);
     }
 
-    @PostMapping("/{key}?value={value}")
+    @PostMapping("/set/{key}/{value}")
     public void set(@PathVariable String key, @PathVariable String value) {
         KVPair pair = new KVPair(key, value);
         repository.save(pair);
